@@ -1,0 +1,13 @@
+filename = 'no_resource_pack_warnings_forge-1.20.1-1.0.0.jar'
+name = 'No Resource Pack Warnings forge'
+side = 'client'
+
+[download]
+hash = 'e45a9c5e8dfc7a8305dbd11fa788936d4101433ded1982a37654d1b2d3ffd92a6125b2cdf9cde9ac1b8a28ea062d9d9da8dfed240d45e42261ccd87b8575eb50'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/cWtswsPK/versions/snJEGMe7/no_resource_pack_warnings_forge-1.20.1-1.0.0.jar'
+
+[update.modrinth]
+mod-id = 'cWtswsPK'
+version = 'snJEGMe7'

@@ -1,0 +1,318 @@
+---- Minecraft Crash Report ----
+// Don't be sad. I'll do better next time, I promise!
+
+Time: 2024-03-11 10:26:26
+Description: Unexpected error
+
+java.lang.NullPointerException: Cannot invoke "net.minecraft.client.player.LocalPlayer.m_6117_()" because "this.f_91074_" is null
+	at net.minecraft.client.Minecraft.m_91279_(Minecraft.java:1957) ~[client-1.20.1-20230612.114412-srg.jar%23420!/:?] {re:mixin,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_minecraft_runtick,xf:fml:xaeroworldmap:xaero_wm_minecraft_runtick_render_call,xf:fml:xaeroworldmap:xaero_wm_minecraftclient,xf:fml:xaerominimap:xaero_minecraftclient,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_minecraft_runtick,xf:fml:xaeroworldmap:xaero_wm_minecraft_runtick_render_call,xf:fml:xaeroworldmap:xaero_wm_minecraftclient,xf:fml:xaerominimap:xaero_minecraftclient,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.m_91398_(Minecraft.java:1795) ~[client-1.20.1-20230612.114412-srg.jar%23420!/:?] {re:mixin,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_minecraft_runtick,xf:fml:xaeroworldmap:xaero_wm_minecraft_runtick_render_call,xf:fml:xaeroworldmap:xaero_wm_minecraftclient,xf:fml:xaerominimap:xaero_minecraftclient,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_minecraft_runtick,xf:fml:xaeroworldmap:xaero_wm_minecraft_runtick_render_call,xf:fml:xaeroworldmap:xaero_wm_minecraftclient,xf:fml:xaerominimap:xaero_minecraftclient,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.m_91383_(Minecraft.java:1112) ~[client-1.20.1-20230612.114412-srg.jar%23420!/:?] {re:mixin,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_minecraft_runtick,xf:fml:xaeroworldmap:xaero_wm_minecraft_runtick_render_call,xf:fml:xaeroworldmap:xaero_wm_minecraftclient,xf:fml:xaerominimap:xaero_minecraftclient,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_minecraft_runtick,xf:fml:xaeroworldmap:xaero_wm_minecraft_runtick_render_call,xf:fml:xaeroworldmap:xaero_wm_minecraftclient,xf:fml:xaerominimap:xaero_minecraftclient,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.m_91374_(Minecraft.java:718) ~[client-1.20.1-20230612.114412-srg.jar%23420!/:?] {re:mixin,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_minecraft_runtick,xf:fml:xaeroworldmap:xaero_wm_minecraft_runtick_render_call,xf:fml:xaeroworldmap:xaero_wm_minecraftclient,xf:fml:xaerominimap:xaero_minecraftclient,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_minecraft_runtick,xf:fml:xaeroworldmap:xaero_wm_minecraft_runtick_render_call,xf:fml:xaeroworldmap:xaero_wm_minecraftclient,xf:fml:xaerominimap:xaero_minecraftclient,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.main.Main.main(Main.java:218) ~[minecraft-1.20.1-client.jar:?] {re:mixin,pl:runtimedistcleaner:A,re:classloading,pl:mixin:APP:flywheel.mixins.json:ClientMainMixin,pl:mixin:A,pl:runtimedistcleaner:A}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?] {}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?] {}
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?] {}
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.2.0.jar:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:99) ~[fmlloader-1.20.1-47.2.0.jar:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonClientLaunchHandler.lambda$makeService$0(CommonClientLaunchHandler.java:25) ~[fmlloader-1.20.1-47.2.0.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?] {}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?] {}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?] {}
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?] {}
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?] {}
+	at io.github.zekerzhayard.forgewrapper.installer.Main.main(Main.java:58) ~[?:?] {}
+	at org.prismlauncher.launcher.impl.StandardLauncher.launch(StandardLauncher.java:87) ~[?:?] {}
+	at org.prismlauncher.EntryPoint.listen(EntryPoint.java:129) ~[?:?] {}
+	at org.prismlauncher.EntryPoint.main(EntryPoint.java:70) ~[?:?] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Render thread
+Stacktrace:
+	at net.minecraft.client.Minecraft.m_91279_(Minecraft.java:1957) ~[client-1.20.1-20230612.114412-srg.jar%23420!/:?] {re:mixin,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_minecraft_runtick,xf:fml:xaeroworldmap:xaero_wm_minecraft_runtick_render_call,xf:fml:xaeroworldmap:xaero_wm_minecraftclient,xf:fml:xaerominimap:xaero_minecraftclient,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_minecraft_runtick,xf:fml:xaeroworldmap:xaero_wm_minecraft_runtick_render_call,xf:fml:xaeroworldmap:xaero_wm_minecraftclient,xf:fml:xaerominimap:xaero_minecraftclient,pl:mixin:A,pl:runtimedistcleaner:A}
+-- Last reload --
+Details:
+	Reload number: 1
+	Reload reason: initial
+	Finished: Yes
+	Packs: vanilla, mod_resources, Moonlight Mods Dynamic Assets, file/§fBetter §6§lTotem §71.20.zip, file/stone-stove.zip, file/Complementary - 1.20 Panorama F15.zip, file/Create Simple Storage 2.1.zip, file/Better tom's create storage 1.1.zip, file/ColorfulNixies.zip, file/Created Updated v0.1.zip, file/CU - 3d Wrench.zip, file/Fancy Crops v1.0 pf5-22.zip, file/Icon Xaero's 1.14 1.20-1.20.1.zip, file/Irons Spellbooks Icon.zip, file/Lanterns+Enhanced v1.0.1.zip, file/Lopy-Create-Sophisticated-Backpacks.zip, file/Creates-New-Copper-Coating-v2.zip, file/Visual Titles.zip, file/SpawnEgg3D-24w09b.zip, file/Smarter Chutes 1.19.2.zip
+	Recovery: Yes
+	Recovery reason: java.util.concurrent.CompletionException: java.lang.IllegalStateException: zip file closed
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+Caused by: java.lang.IllegalStateException: zip file closed
+	at java.base/java.util.zip.ZipFile.ensureOpen(ZipFile.java:840)
+	at java.base/java.util.zip.ZipFile.getInputStream(ZipFile.java:369)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.packs.resources.IoSupplier.m_247182_(IoSupplier.java:17)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.packs.resources.Resource.m_215507_(Resource.java:46)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.client.renderer.texture.SpriteLoader.m_245083_(SpriteLoader.java:138)
+	at TRANSFORMER/minecraft@1.20.1/net.minecraft.client.renderer.texture.atlas.SpriteSource$Output.m_261059_(SpriteSource.java:22)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	... 6 more
+
+Stacktrace:
+	at net.minecraft.client.ResourceLoadStateTracker.m_168562_(ResourceLoadStateTracker.java:49) ~[client-1.20.1-20230612.114412-srg.jar%23420!/:?] {re:mixin,re:classloading,pl:mixin:APP:entity_model_features-common.mixins.json:MixinResourceReload_backport,pl:mixin:APP:entity_texture_features-common.mixins.json:reloading.MixinResourceReload,pl:mixin:A}
+	at net.minecraft.client.Minecraft.m_91354_(Minecraft.java:2326) ~[client-1.20.1-20230612.114412-srg.jar%23420!/:?] {re:mixin,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_minecraft_runtick,xf:fml:xaeroworldmap:xaero_wm_minecraft_runtick_render_call,xf:fml:xaeroworldmap:xaero_wm_minecraftclient,xf:fml:xaerominimap:xaero_minecraftclient,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_minecraft_runtick,xf:fml:xaeroworldmap:xaero_wm_minecraft_runtick_render_call,xf:fml:xaeroworldmap:xaero_wm_minecraftclient,xf:fml:xaerominimap:xaero_minecraftclient,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.m_91374_(Minecraft.java:740) ~[client-1.20.1-20230612.114412-srg.jar%23420!/:?] {re:mixin,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_minecraft_runtick,xf:fml:xaeroworldmap:xaero_wm_minecraft_runtick_render_call,xf:fml:xaeroworldmap:xaero_wm_minecraftclient,xf:fml:xaerominimap:xaero_minecraftclient,pl:runtimedistcleaner:A,re:classloading,pl:accesstransformer:B,xf:fml:xaeroworldmap:xaero_wm_minecraft_runtick,xf:fml:xaeroworldmap:xaero_wm_minecraft_runtick_render_call,xf:fml:xaeroworldmap:xaero_wm_minecraftclient,xf:fml:xaerominimap:xaero_minecraftclient,pl:mixin:A,pl:runtimedistcleaner:A}
+	at net.minecraft.client.main.Main.main(Main.java:218) ~[minecraft-1.20.1-client.jar:?] {re:mixin,pl:runtimedistcleaner:A,re:classloading,pl:mixin:APP:flywheel.mixins.json:ClientMainMixin,pl:mixin:A,pl:runtimedistcleaner:A}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?] {}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?] {}
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?] {}
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.2.0.jar:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:99) ~[fmlloader-1.20.1-47.2.0.jar:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonClientLaunchHandler.lambda$makeService$0(CommonClientLaunchHandler.java:25) ~[fmlloader-1.20.1-47.2.0.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar:?] {}
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?] {}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?] {}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?] {}
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?] {}
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?] {}
+	at io.github.zekerzhayard.forgewrapper.installer.Main.main(Main.java:58) ~[?:?] {}
+	at org.prismlauncher.launcher.impl.StandardLauncher.launch(StandardLauncher.java:87) ~[?:?] {}
+	at org.prismlauncher.EntryPoint.listen(EntryPoint.java:129) ~[?:?] {}
+	at org.prismlauncher.EntryPoint.main(EntryPoint.java:70) ~[?:?] {}
+
+
+-- System Details --
+Details:
+	Minecraft Version: 1.20.1
+	Minecraft Version ID: 1.20.1
+	Operating System: Linux (amd64) version 5.15.0-97-generic
+	Java Version: 17.0.9, Flathub
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Flathub
+	Memory: 1568825912 bytes (1496 MiB) / 2671771648 bytes (2548 MiB) up to 4294967296 bytes (4096 MiB)
+	CPUs: 16
+	Processor Vendor: AuthenticAMD
+	Processor Name: AMD Ryzen 7 5800X 8-Core Processor
+	Identifier: AuthenticAMD Family 25 Model 33 Stepping 2
+	Microarchitecture: Zen 3
+	Frequency (GHz): -0.00
+	Number of physical packages: 1
+	Number of physical CPUs: 8
+	Number of logical CPUs: 16
+	Graphics card #0 name: GA106 [Geforce RTX 3050]
+	Graphics card #0 vendor: NVIDIA Corporation (0x10de)
+	Graphics card #0 VRAM (MB): 288.00
+	Graphics card #0 deviceId: 0x2507
+	Graphics card #0 versionInfo: unknown
+	Virtual memory max (MB): 10002.30
+	Virtual memory used (MB): 8128.79
+	Swap memory total (MB): 2048.00
+	Swap memory used (MB): 2.25
+	JVM Flags: 2 total; -Xms512m -Xmx4096m
+	Loaded Shaderpack: ComplementaryReimagined_r5.1.1.zip
+		Profile: HIGH (+6 options changed by user)
+	Launched Version: 1.20.1
+	Backend library: LWJGL version 3.3.1 build 7
+	Backend API: NVIDIA GeForce RTX 3050/PCIe/SSE2 GL version 4.6.0 NVIDIA 535.161.07, NVIDIA Corporation
+	Window size: 2560x1440
+	GL Caps: Using framebuffer using OpenGL 3.2
+	GL debug messages: 
+	Using VBOs: Yes
+	Is Modded: Definitely; Client brand changed to 'forge'
+	Type: Client (map_client.txt)
+	Graphics mode: fancy
+	Resource Packs: 
+	Current Language: en_us
+	CPU: 16x AMD Ryzen 7 5800X 8-Core Processor
+	ModLauncher: 10.0.9+10.0.9+main.dcd20f30
+	ModLauncher launch target: forgeclient
+	ModLauncher naming: srg
+	ModLauncher services: 
+		mixin-0.8.5.jar mixin PLUGINSERVICE 
+		eventbus-6.0.5.jar eventbus PLUGINSERVICE 
+		fmlloader-1.20.1-47.2.0.jar slf4jfixer PLUGINSERVICE 
+		fmlloader-1.20.1-47.2.0.jar object_holder_definalize PLUGINSERVICE 
+		fmlloader-1.20.1-47.2.0.jar runtime_enum_extender PLUGINSERVICE 
+		fmlloader-1.20.1-47.2.0.jar capability_token_subclass PLUGINSERVICE 
+		accesstransformers-8.0.4.jar accesstransformer PLUGINSERVICE 
+		fmlloader-1.20.1-47.2.0.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-10.0.9.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-10.0.9.jar fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		minecraft@1.0
+		javafml@null
+		kotlinforforge@4.10.0
+		lowcodefml@null
+	Mod List: 
+		EasyAnvils-v8.0.2-1.20.1-Forge.jar                |Easy Anvils                   |easyanvils                    |8.0.2               |PROCESS_IM|Manifest: 9a:09:85:98:65:c4:8c:11:c5:49:f6:d6:33:23:39:df:8d:b4:ff:92:84:b8:bd:a5:83:9f:ac:7f:2a:d1:4b:6a
+		geckolib-forge-1.20.1-4.4.2.jar                   |GeckoLib 4                    |geckolib                      |4.4.2               |PROCESS_IM|Manifest: NOSIGNATURE
+		beautify-2.0.2.jar                                |Beautify                      |beautify                      |2.0.2               |PROCESS_IM|Manifest: NOSIGNATURE
+		player-animation-lib-forge-1.0.2-rc1+1.20.jar     |Player Animator               |playeranimator                |1.0.2-rc1+1.20      |PROCESS_IM|Manifest: NOSIGNATURE
+		botarium-forge-1.20.1-2.3.3.jar                   |Botarium                      |botarium                      |2.3.3               |PROCESS_IM|Manifest: NOSIGNATURE
+		ctov-beautify-compat-2.0.jar                      |CTOV - Beautify Compat        |mr_ctov_beautifycompat        |2.0                 |PROCESS_IM|Manifest: NOSIGNATURE
+		Tips-Forge-1.20.1-12.0.5.jar                      |Tips                          |tipsmod                       |12.0.5              |PROCESS_IM|Manifest: eb:c4:b1:67:8b:f9:0c:db:dc:4f:01:b1:8e:61:64:39:4c:10:85:0b:a6:c4:c7:48:f0:fa:95:f2:cb:08:3a:e5
+		sophisticatedcore-1.20.1-0.6.8.567.jar            |Sophisticated Core            |sophisticatedcore             |0.6.8.567           |PROCESS_IM|Manifest: NOSIGNATURE
+		Controlling-forge-1.20.1-12.0.2.jar               |Controlling                   |controlling                   |12.0.2              |PROCESS_IM|Manifest: NOSIGNATURE
+		Prism-1.20.1-forge-1.0.5.jar                      |Prism                         |prism                         |1.0.5               |PROCESS_IM|Manifest: NOSIGNATURE
+		YungsApi-1.20-Forge-4.0.4.jar                     |YUNG's API                    |yungsapi                      |1.20-Forge-4.0.4    |PROCESS_IM|Manifest: NOSIGNATURE
+		mixinextras-forge-0.2.0.jar                       |MixinExtras                   |mixinextras                   |0.2.0               |PROCESS_IM|Manifest: NOSIGNATURE
+		ctov-more-villagers-compat-2.0.jar                |CTOV - More villagers compat  |mr_ctov_morevillagerscompat   |2.0                 |PROCESS_IM|Manifest: NOSIGNATURE
+		emitrades-forge-1.2.1+mc1.20.1.jar                |EMI Trades                    |emitrades                     |1.2.1+mc1.20.1      |PROCESS_IM|Manifest: NOSIGNATURE
+		Bookshelf-Forge-1.20.1-20.1.9.jar                 |Bookshelf                     |bookshelf                     |20.1.9              |PROCESS_IM|Manifest: eb:c4:b1:67:8b:f9:0c:db:dc:4f:01:b1:8e:61:64:39:4c:10:85:0b:a6:c4:c7:48:f0:fa:95:f2:cb:08:3a:e5
+		redeco-1.7.0-1.20.jar                             |Re:Deco                       |redeco                        |1.7.0               |PROCESS_IM|Manifest: NOSIGNATURE
+		sophisticatedbackpacks-1.20.1-3.20.2.1022.jar     |Sophisticated Backpacks       |sophisticatedbackpacks        |3.20.2.1022         |PROCESS_IM|Manifest: NOSIGNATURE
+		lootbeams-1.20.1-1.2.2.jar                        |LootBeams                     |lootbeams                     |1.20.1              |PROCESS_IM|Manifest: NOSIGNATURE
+		create_dragon_lib-1.20.1-1.3.3.jar                |Create: Dragon Lib            |create_dragon_lib             |1.3.3               |PROCESS_IM|Manifest: NOSIGNATURE
+		zume-0.12.1.jar                                   |Zume                          |zume                          |0.12.1              |PROCESS_IM|Manifest: NOSIGNATURE
+		PickUpNotifier-v8.0.0-1.20.1-Forge.jar            |Pick Up Notifier              |pickupnotifier                |8.0.0               |PROCESS_IM|Manifest: 9a:09:85:98:65:c4:8c:11:c5:49:f6:d6:33:23:39:df:8d:b4:ff:92:84:b8:bd:a5:83:9f:ac:7f:2a:d1:4b:6a
+		create-new-age-forge-1.20.1-1.1.2.jar             |Create: New Age               |create_new_age                |1.1.2               |PROCESS_IM|Manifest: NOSIGNATURE
+		balm-forge-1.20.1-7.2.2.jar                       |Balm                          |balm                          |7.2.2               |PROCESS_IM|Manifest: NOSIGNATURE
+		SnowRealMagic-1.20.1-forge-10.4.0.jar             |Snow! Real Magic!             |snowrealmagic                 |10.4.0              |PROCESS_IM|Manifest: NOSIGNATURE
+		cloth-config-11.1.118-forge.jar                   |Cloth Config v10 API          |cloth_config                  |11.1.118            |PROCESS_IM|Manifest: NOSIGNATURE
+		[Forge]ctov-3.4.2.jar                             |ChoiceTheorem's Overhauled Vil|ctov                          |3.4.2               |PROCESS_IM|Manifest: NOSIGNATURE
+		LeavesBeGone-v8.0.0-1.20.1-Forge.jar              |Leaves Be Gone                |leavesbegone                  |8.0.0               |PROCESS_IM|Manifest: 9a:09:85:98:65:c4:8c:11:c5:49:f6:d6:33:23:39:df:8d:b4:ff:92:84:b8:bd:a5:83:9f:ac:7f:2a:d1:4b:6a
+		irons_rpg_tweaks-1.20-1.2.2.jar                   |Iron's RPG Tweaks             |irons_rpg_tweaks              |1.20-1.2.2          |ERROR     |Manifest: NOSIGNATURE
+		geophilic-v2.2.0-mc1.20u1.20.2.jar                |Geophilic                     |geophilic                     |2.2.0-mc1.20u1.20.2 |PROCESS_IM|Manifest: NOSIGNATURE
+		embeddium-0.3.7+mc1.20.1.jar                      |Embeddium                     |embeddium                     |0.3.7+mc1.20.1      |PROCESS_IM|Manifest: NOSIGNATURE
+		BetterPingDisplay-1.20.1-1.1.jar                  |Better Ping Display           |betterpingdisplay             |1.1                 |PROCESS_IM|Manifest: NOSIGNATURE
+		xaeros_waystones_compability-1.19.2-1.20.1--1.0.ja|Xaero's Map - Waystones Compab|w2w2                          |1.0                 |PROCESS_IM|Manifest: NOSIGNATURE
+		FarmersDelight-1.20.1-1.2.4.jar                   |Farmer's Delight              |farmersdelight                |1.20.1-1.2.4        |ERROR     |Manifest: NOSIGNATURE
+		entity_model_features_forge_1.20.1-1.3.jar        |Entity Model Features         |entity_model_features         |1.3                 |PROCESS_IM|Manifest: NOSIGNATURE
+		entity_texture_features_forge_1.20.1-5.2.3.jar    |Entity Texture Features       |entity_texture_features       |5.2.3               |PROCESS_IM|Manifest: NOSIGNATURE
+		Amplified_Nether_1.20.4_v1.2.4.jar                |Amplified Nether              |amplifiednether               |1.2.4               |PROCESS_IM|Manifest: NOSIGNATURE
+		chefs-delight-1.0.3-forge-1.20.1.jar              |Chefs Delight                 |chefsdelight                  |1.0.3-forge-1.20.1  |PROCESS_IM|Manifest: NOSIGNATURE
+		WaystonesTeleportPets-1.20-1.20.1--1.2.jar        |Waystones Teleport Pets       |w2pets                        |1.0                 |PROCESS_IM|Manifest: NOSIGNATURE
+		Boat-Item-View-Forge-1.20.1-0.0.5.jar             |Boat Item View                |boatiview                     |0.0.5               |PROCESS_IM|Manifest: NOSIGNATURE
+		tidal-towns-1.2.jar                               |Tidal Towns                   |mr_tidal_towns                |1.2                 |PROCESS_IM|Manifest: NOSIGNATURE
+		immersivesnow-1.20.1-1.3.0.jar                    |Immersive Snow                |immersivesnow                 |1.3.0               |PROCESS_IM|Manifest: NOSIGNATURE
+		spark-1.10.53-forge.jar                           |spark                         |spark                         |1.10.53             |PROCESS_IM|Manifest: NOSIGNATURE
+		modelfix-1.14.jar                                 |Model Gap Fix                 |modelfix                      |1.14                |PROCESS_IM|Manifest: NOSIGNATURE
+		EchoChest-v8.0.0-1.20.1-Forge.jar                 |Echo Chest                    |echochest                     |8.0.0               |PROCESS_IM|Manifest: 9a:09:85:98:65:c4:8c:11:c5:49:f6:d6:33:23:39:df:8d:b4:ff:92:84:b8:bd:a5:83:9f:ac:7f:2a:d1:4b:6a
+		curios-forge-5.7.0+1.20.1.jar                     |Curios API                    |curios                        |5.7.0+1.20.1        |ERROR     |Manifest: NOSIGNATURE
+		WMFO_Reborn-1.19.2-1.20.4-1.4.0.jar               |Way Much Faster Oxidize Reborn|way_much_faster_oxidize_reborn|1.4.0               |PROCESS_IM|Manifest: NOSIGNATURE
+		oculus-mc1.20.1-1.6.15a.jar                       |Oculus                        |oculus                        |1.6.15a             |PROCESS_IM|Manifest: NOSIGNATURE
+		cullleaves-forge-3.2.0.jar                        |CullLeaves                    |cullleaves                    |3.2.0               |PROCESS_IM|Manifest: NOSIGNATURE
+		collective-1.20.1-7.39.jar                        |Collective                    |collective                    |7.39                |PROCESS_IM|Manifest: NOSIGNATURE
+		Searchables-forge-1.20.1-1.0.2.jar                |Searchables                   |searchables                   |1.0.2               |PROCESS_IM|Manifest: NOSIGNATURE
+		YungsExtras-1.20-Forge-4.0.3.jar                  |YUNG's Extras                 |yungsextras                   |1.20-Forge-4.0.3    |PROCESS_IM|Manifest: NOSIGNATURE
+		resourcefullib-forge-1.20-2.0.7.jar               |Resourceful Lib               |resourcefullib                |2.0.7               |PROCESS_IM|Manifest: NOSIGNATURE
+		architectury-9.2.14-forge.jar                     |Architectury                  |architectury                  |9.2.14              |PROCESS_IM|Manifest: NOSIGNATURE
+		dynmus-v2.3.2+1.20-forge.jar                      |Dynamic Music                 |dynmus                        |2.3.2+1.20          |PROCESS_IM|Manifest: NOSIGNATURE
+		separatedleaves-2.4.0-forge-1.20.4.jar            |Separated Leaves              |separatedleaves               |2.4.0               |PROCESS_IM|Manifest: NOSIGNATURE
+		NetherChested-v8.0.3-1.20.1-Forge.jar             |Nether Chested                |netherchested                 |8.0.3               |PROCESS_IM|Manifest: 9a:09:85:98:65:c4:8c:11:c5:49:f6:d6:33:23:39:df:8d:b4:ff:92:84:b8:bd:a5:83:9f:ac:7f:2a:d1:4b:6a
+		emiffect-forge-1.1.2+mc1.20.1.jar                 |EMIffect                      |emiffect                      |1.1.2+mc1.20.1      |PROCESS_IM|Manifest: NOSIGNATURE
+		cherishedworlds-forge-6.1.6+1.20.1.jar            |Cherished Worlds              |cherishedworlds               |6.1.6+1.20.1        |PROCESS_IM|Manifest: NOSIGNATURE
+		KeepSomeInventory-v1.3.3.jar                      |Keep Some Inventory           |keepsomeinventory             |1.3.3               |PROCESS_IM|Manifest: NOSIGNATURE
+		JadeAddons-1.20.1-forge-5.2.2.jar                 |Jade Addons                   |jadeaddons                    |5.2.2               |PROCESS_IM|Manifest: NOSIGNATURE
+		toms_storage-1.20-1.6.5.jar                       |Tom's Simple Storage Mod      |toms_storage                  |1.6.5               |PROCESS_IM|Manifest: NOSIGNATURE
+		more_music_discs_blossom.jar                      |More Music Discs              |more_music_discs              |1.0.0               |PROCESS_IM|Manifest: NOSIGNATURE
+		sliceanddice-forge-3.2.0.jar                      |Create Slice & Dice           |sliceanddice                  |3.2.0               |PROCESS_IM|Manifest: NOSIGNATURE
+		BetterAdvancements-1.20.1-0.3.2.162.jar           |Better Advancements           |betteradvancements            |0.3.2.162           |PROCESS_IM|Manifest: NOSIGNATURE
+		MobPlaques-v8.0.1-1.20.1-Forge.jar                |Mob Plaques                   |mobplaques                    |8.0.1               |PROCESS_IM|Manifest: 9a:09:85:98:65:c4:8c:11:c5:49:f6:d6:33:23:39:df:8d:b4:ff:92:84:b8:bd:a5:83:9f:ac:7f:2a:d1:4b:6a
+		Kiwi-1.20.1-forge-11.5.5.jar                      |Kiwi Library                  |kiwi                          |11.5.5              |PROCESS_IM|Manifest: NOSIGNATURE
+		ctov-farmers-delight-compat-2.1.jar               |CTOV - Farmer Delight Compat  |mr_ctov_farmersdelightcompat  |2.1                 |PROCESS_IM|Manifest: NOSIGNATURE
+		ctov-create-structures-1.0.jar                    |CTOV - Create: Structures     |mr_ctov_createstructures      |1.0                 |PROCESS_IM|Manifest: NOSIGNATURE
+		puzzlesapi-forge-8.1.5.jar                        |Puzzles Api                   |puzzlesapi                    |8.1.5               |PROCESS_IM|Manifest: 9a:09:85:98:65:c4:8c:11:c5:49:f6:d6:33:23:39:df:8d:b4:ff:92:84:b8:bd:a5:83:9f:ac:7f:2a:d1:4b:6a
+		cherries.jar                                      |Cherries                      |cherries                      |1.0.0               |PROCESS_IM|Manifest: NOSIGNATURE
+		amendments-1.20-1.1.10.jar                        |Amendments                    |amendments                    |1.20-1.1.10         |PROCESS_IM|Manifest: NOSIGNATURE
+		sophisticatedstorage-1.20.1-0.10.8.752.jar        |Sophisticated Storage         |sophisticatedstorage          |0.10.8.752          |PROCESS_IM|Manifest: NOSIGNATURE
+		EasyMagic-v8.0.1-1.20.1-Forge.jar                 |Easy Magic                    |easymagic                     |8.0.1               |PROCESS_IM|Manifest: 9a:09:85:98:65:c4:8c:11:c5:49:f6:d6:33:23:39:df:8d:b4:ff:92:84:b8:bd:a5:83:9f:ac:7f:2a:d1:4b:6a
+		lithostitched-forge-1.20.1-1.1.5.jar              |Lithostitched                 |lithostitched                 |1.1.5               |PROCESS_IM|Manifest: NOSIGNATURE
+		VisualWorkbench-v8.0.0-1.20.1-Forge.jar           |Visual Workbench              |visualworkbench               |8.0.0               |PROCESS_IM|Manifest: 9a:09:85:98:65:c4:8c:11:c5:49:f6:d6:33:23:39:df:8d:b4:ff:92:84:b8:bd:a5:83:9f:ac:7f:2a:d1:4b:6a
+		ctov-chefs-delight-compat-2.0.jar                 |CTOV - Chef's delight Compat  |mr_ctov_chefsdelightcompat    |2.0                 |PROCESS_IM|Manifest: NOSIGNATURE
+		caelus-forge-3.1.0+1.20.jar                       |Caelus API                    |caelus                        |3.1.0+1.20          |ERROR     |Manifest: NOSIGNATURE
+		Stoneworks-v8.0.0-1.20.1-Forge.jar                |Stoneworks                    |stoneworks                    |8.0.0               |PROCESS_IM|Manifest: 9a:09:85:98:65:c4:8c:11:c5:49:f6:d6:33:23:39:df:8d:b4:ff:92:84:b8:bd:a5:83:9f:ac:7f:2a:d1:4b:6a
+		blossom-blade-1.0.jar                             |Blossom Blade                 |mr_blossom_blade              |1.0                 |PROCESS_IM|Manifest: NOSIGNATURE
+		waystones-forge-1.20-14.1.3.jar                   |Waystones                     |waystones                     |14.1.3              |PROCESS_IM|Manifest: NOSIGNATURE
+		MerchantMarkers-1.20.1-forge-1.3.3.jar            |Merchant Markers              |merchantmarkers               |1.3.3               |PROCESS_IM|Manifest: NOSIGNATURE
+		Clumps-forge-1.20.1-12.0.0.3.jar                  |Clumps                        |clumps                        |12.0.0.3            |PROCESS_IM|Manifest: NOSIGNATURE
+		smarterfarmers-1.20-1.8.3.jar                     |Smarter Farmers               |smarterfarmers                |1.20-1.8.3          |PROCESS_IM|Manifest: NOSIGNATURE
+		SereneSeasons-1.20.1-9.0.0.46.jar                 |Serene Seasons                |sereneseasons                 |9.0.0.46            |PROCESS_IM|Manifest: NOSIGNATURE
+		sereneseasonfix-1.20.1-1.0.8.jar                  |Sereneseasonfix               |sereneseasonfix               |1.20.1-1.0.8        |PROCESS_IM|Manifest: NOSIGNATURE
+		badpackets-forge-0.4.3.jar                        |Bad Packets                   |badpackets                    |0.4.3               |PROCESS_IM|Manifest: NOSIGNATURE
+		create_wizardry-1.20.1-0.1.2.jar                  |Create: Wizardry              |create_wizardry               |1.20.10.1.2         |PROCESS_IM|Manifest: NOSIGNATURE
+		make_bubbles_pop-0.2.0-forge-mc1.19.4+.jar        |Make Bubbles Pop              |make_bubbles_pop              |0.2.0-forge         |PROCESS_IM|Manifest: NOSIGNATURE
+		midnightlib-forge-1.4.2.jar                       |MidnightLib                   |midnightlib                   |1.4.2               |PROCESS_IM|Manifest: NOSIGNATURE
+		cherry-villages-1.0.3.jar                         |Cherry Grove Villages         |mr_cherry_villages            |1.0.3               |PROCESS_IM|Manifest: NOSIGNATURE
+		HopoBetterUnderwaterRuins-[1.20-1.20.2]-1.1.4b.jar|HopoBetterUnderwaterRuins     |hopour                        |1.1.4               |PROCESS_IM|Manifest: NOSIGNATURE
+		Resourcify (1.20-1.20.1-forge)-1.3.1.jar          |Resourcify                    |resourcify                    |1.3.1               |PROCESS_IM|Manifest: NOSIGNATURE
+		create_trimmed.jar                                |Create: Trimmed               |create_trimmed                |1.0.0               |PROCESS_IM|Manifest: NOSIGNATURE
+		memoryleakfix-forge-1.17+-1.1.5.jar               |Memory Leak Fix               |memoryleakfix                 |1.1.5               |PROCESS_IM|Manifest: NOSIGNATURE
+		imst-2.1.0.jar                                    |Immersive Structures          |imst                          |2.1.0               |PROCESS_IM|Manifest: NOSIGNATURE
+		ctov-irons-spells-n-spellbooks-compat-1.2.jar     |CTOV - Iron's Spells 'n Spellb|mr_ctov_ironsspellsnspellbooks|1.2                 |PROCESS_IM|Manifest: NOSIGNATURE
+		puzzlesaccessapi-forge-8.0.9.jar                  |Puzzles Access Api            |puzzlesaccessapi              |8.0.9               |PROCESS_IM|Manifest: 9a:09:85:98:65:c4:8c:11:c5:49:f6:d6:33:23:39:df:8d:b4:ff:92:84:b8:bd:a5:83:9f:ac:7f:2a:d1:4b:6a
+		skinlayers3d-forge-1.6.2-mc1.20.1.jar             |3d-Skin-Layers                |skinlayers3d                  |1.6.2               |PROCESS_IM|Manifest: NOSIGNATURE
+		forge-1.20.1-47.2.0-universal.jar                 |Forge                         |forge                         |47.2.0              |ERROR     |Manifest: 84:ce:76:e8:45:35:e4:0e:63:86:df:47:59:80:0f:67:6c:c1:5f:6e:5f:4d:b3:54:47:1a:9f:7f:ed:5e:f2:90
+		netherracked-1.0.2.jar                            |Netherracked                  |mr_netherracked               |1.0.2               |PROCESS_IM|Manifest: NOSIGNATURE
+		TravelersTitles-1.20-Forge-4.0.2.jar              |Traveler's Titles             |travelerstitles               |1.20-Forge-4.0.2    |PROCESS_IM|Manifest: NOSIGNATURE
+		elytratrims-forge-2.0.3+1.20.1.jar                |Elytra Trims                  |elytratrims                   |2.0.3               |PROCESS_IM|Manifest: NOSIGNATURE
+		client-1.20.1-20230612.114412-srg.jar             |Minecraft                     |minecraft                     |1.20.1              |PROCESS_IM|Manifest: a1:d4:5e:04:4f:d3:d6:e0:7b:37:97:cf:77:b0:de:ad:4a:47:ce:8c:96:49:5f:0a:cf:8c:ae:b2:6d:4b:8a:3f
+		right_click_get_crops-1.20.1-1.6.0.12.jar         |Right Click, Get Crops        |right_click_get_crops         |1.6.0               |PROCESS_IM|Manifest: NOSIGNATURE
+		okzoomer-forge-1.20-3.0.1.jar                     |OkZoomer                      |okzoomer                      |3.0.1               |PROCESS_IM|Manifest: NOSIGNATURE
+		emi-1.1.3+1.20.1+forge.jar                        |EMI                           |emi                           |1.1.3+1.20.1+forge  |PROCESS_IM|Manifest: NOSIGNATURE
+		emi_loot-0.6.5+1.20.1+forge.jar                   |EMI Loot                      |emi_loot                      |0.6.5+1.20.1+forge  |PROCESS_IM|Manifest: NOSIGNATURE
+		radiantgear-forge-2.1.4+1.20.1.jar                |Radiant Gear                  |radiantgear                   |2.1.4+1.20.1        |PROCESS_IM|Manifest: NOSIGNATURE
+		moonlight-1.20-2.11.2-forge.jar                   |Moonlight Library             |moonlight                     |1.20-2.11.2         |PROCESS_IM|Manifest: NOSIGNATURE
+		ForgeConfigScreens-v8.0.2-1.20.1-Forge.jar        |Forge Config Screens          |forgeconfigscreens            |8.0.2               |PROCESS_IM|Manifest: 9a:09:85:98:65:c4:8c:11:c5:49:f6:d6:33:23:39:df:8d:b4:ff:92:84:b8:bd:a5:83:9f:ac:7f:2a:d1:4b:6a
+		Companion-1.20.1-forge-5.0.1.jar                  |Companion                     |companion                     |5.0.1               |PROCESS_IM|Manifest: NOSIGNATURE
+		Create Sweets And Treats 1.1.1.jar                |CreateSweetsAndTreets         |createsweetsandtreets         |1.0.0               |PROCESS_IM|Manifest: NOSIGNATURE
+		mixinsquared-forge-0.1.2-beta.4.jar               |MixinSquared                  |mixinsquared                  |0.1.2-beta.4        |PROCESS_IM|Manifest: NOSIGNATURE
+		Jade-1.20.1-forge-11.8.0.jar                      |Jade                          |jade                          |11.8.0              |PROCESS_IM|Manifest: NOSIGNATURE
+		nethersdelight-1.20.1-4.0.jar                     |Nether's Delight              |nethersdelight                |1.20.1-4.0          |PROCESS_IM|Manifest: NOSIGNATURE
+		highlight-forge-1.20-2.0.1.jar                    |Highlight                     |highlight                     |2.0.1               |PROCESS_IM|Manifest: NOSIGNATURE
+		kffmod-4.10.0.jar                                 |Kotlin For Forge              |kotlinforforge                |4.10.0              |PROCESS_IM|Manifest: NOSIGNATURE
+		BarteringStation-v8.0.0-1.20.1-Forge.jar          |Bartering Station             |barteringstation              |8.0.0               |PROCESS_IM|Manifest: 9a:09:85:98:65:c4:8c:11:c5:49:f6:d6:33:23:39:df:8d:b4:ff:92:84:b8:bd:a5:83:9f:ac:7f:2a:d1:4b:6a
+		notenoughanimations-forge-1.7.1-mc1.20.1.jar      |NotEnoughAnimations           |notenoughanimations           |1.7.1               |PROCESS_IM|Manifest: NOSIGNATURE
+		Iceberg-1.20.1-forge-1.1.21.jar                   |Iceberg                       |iceberg                       |1.1.21              |PROCESS_IM|Manifest: NOSIGNATURE
+		citresewn-1.20.1-5.jar                            |CIT Resewn                    |citresewn                     |1.20.1-5            |PROCESS_IM|Manifest: NOSIGNATURE
+		flywheel-forge-1.20.1-0.6.10-7.jar                |Flywheel                      |flywheel                      |0.6.10-7            |PROCESS_IM|Manifest: NOSIGNATURE
+		oculus-flywheel-compat-1.20.1-0.2.2.jar           |Oculus Flywheel Compat        |irisflw                       |1.20.1-0.2.2        |PROCESS_IM|Manifest: NOSIGNATURE
+		create-1.20.1-0.5.1.f.jar                         |Create                        |create                        |0.5.1.f             |PROCESS_IM|Manifest: NOSIGNATURE
+		create-structures-0.1.1-1.20.1-FORGE.jar          |Create: Structures            |create_structures             |0.1.1               |PROCESS_IM|Manifest: NOSIGNATURE
+		create_central_kitchen-1.20.1-for-create-0.5.1.f-1|Create: Central Kitchen       |create_central_kitchen        |1.3.10              |ERROR     |Manifest: NOSIGNATURE
+		LegendaryTooltips-1.20.1-forge-1.4.5.jar          |Legendary Tooltips            |legendarytooltips             |1.4.5               |PROCESS_IM|Manifest: NOSIGNATURE
+		irons_spellbooks-1.20.1-3.0.1.jar                 |Iron's Spells 'n Spellbooks   |irons_spellbooks              |1.20.1-3.0.1        |ERROR     |Manifest: NOSIGNATURE
+		ToughAsNails-1.20.1-9.0.0.96.jar                  |Tough As Nails                |toughasnails                  |0.0NONE             |PROCESS_IM|Manifest: NOSIGNATURE
+		entityculling-forge-1.6.2-mc1.20.1.jar            |EntityCulling                 |entityculling                 |1.6.2               |PROCESS_IM|Manifest: NOSIGNATURE
+		canary-mc1.20.1-0.3.3.jar                         |Canary                        |canary                        |0.3.3               |PROCESS_IM|Manifest: NOSIGNATURE
+		betterarcheology-1.1.7-1.20.1.jar                 |Better Archeology             |betterarcheology              |1.1.7-1.20.1        |PROCESS_IM|Manifest: NOSIGNATURE
+		spawnanimations-v1.9.4-mc1.17x-1.20x-mod.jar      |Spawn Animations              |spawnanimations               |1.9.4+mod           |PROCESS_IM|Manifest: NOSIGNATURE
+		XaeroPlus-2.1+forge-1.20.1-WM1.37.8-MM23.9.7.jar  |XaeroPlus                     |xaeroplus                     |2.1                 |PROCESS_IM|Manifest: NOSIGNATURE
+		XaerosWorldMap_1.37.8_Forge_1.20.jar              |Xaero's World Map             |xaeroworldmap                 |1.37.8              |PROCESS_IM|Manifest: NOSIGNATURE
+		Xaeros_Minimap_23.9.7_Forge_1.20.jar              |Xaero's Minimap               |xaerominimap                  |23.9.7              |PROCESS_IM|Manifest: NOSIGNATURE
+		seasonhud-forge-1.20.1-1.7.13.jar                 |SeasonHUD                     |seasonhud                     |1.7.13              |PROCESS_IM|Manifest: NOSIGNATURE
+		appleskin-forge-mc1.20.1-2.5.1.jar                |AppleSkin                     |appleskin                     |2.5.1+mc1.20.1      |PROCESS_IM|Manifest: NOSIGNATURE
+		ferritecore-6.0.1-forge.jar                       |Ferrite Core                  |ferritecore                   |6.0.1               |PROCESS_IM|Manifest: 41:ce:50:66:d1:a0:05:ce:a1:0e:02:85:9b:46:64:e0:bf:2e:cf:60:30:9a:fe:0c:27:e0:63:66:9a:84:ce:8a
+		PuzzlesLib-v8.1.17-1.20.1-Forge.jar               |Puzzles Lib                   |puzzleslib                    |8.1.17              |PROCESS_IM|Manifest: 9a:09:85:98:65:c4:8c:11:c5:49:f6:d6:33:23:39:df:8d:b4:ff:92:84:b8:bd:a5:83:9f:ac:7f:2a:d1:4b:6a
+		BetterF3-7.0.2-Forge-1.20.1.jar                   |BetterF3                      |betterf3                      |7.0.2               |PROCESS_IM|Manifest: NOSIGNATURE
+		FriendlyFire-Forge-1.20.1-18.0.6.jar              |FriendlyFire                  |friendlyfire                  |18.0.6              |PROCESS_IM|Manifest: eb:c4:b1:67:8b:f9:0c:db:dc:4f:01:b1:8e:61:64:39:4c:10:85:0b:a6:c4:c7:48:f0:fa:95:f2:cb:08:3a:e5
+		textrues_embeddium_options-0.1.5+mc1.20.1.jar     |TexTrue's Embeddium Options   |textrues_embeddium_options    |0.1.5+mc1.20.1      |PROCESS_IM|Manifest: NOSIGNATURE
+		embeddiumplus-1.20.1-v1.2.4.jar                   |Embeddium++                   |embeddiumplus                 |1.2.4               |PROCESS_IM|Manifest: NOSIGNATURE
+		Delightful-1.20.1-3.5.2.jar                       |Delightful                    |delightful                    |3.5.2               |PROCESS_IM|Manifest: NOSIGNATURE
+		create_enchantment_industry-1.20.1-for-create-0.5.|Create Enchantment Industry   |create_enchantment_industry   |1.2.8               |PROCESS_IM|Manifest: NOSIGNATURE
+		healingcampfire-1.20.1-5.3.jar                    |Healing Campfire              |healingcampfire               |5.3                 |PROCESS_IM|Manifest: NOSIGNATURE
+	Crash Report UUID: adb62573-d83b-4ad8-8224-01fa82282f81
+	FML: 47.2
+	Forge: net.minecraftforge:47.2.0
+	Flywheel Backend: GL33 Instanced Arrays
+	Kiwi Modules: 
+		kiwi:contributors
+		kiwi:data
+		snowrealmagic:core

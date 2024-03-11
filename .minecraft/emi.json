@@ -1,0 +1,20 @@
+{
+  "favorites": [],
+  "lookup_history": [
+    "item:delightful:acorn",
+    "item:nethersdelight:plate_of_stuffed_hoglin_snout",
+    "item:toms_storage:ts.item_filter"
+  ],
+  "craft_history": [
+    "minecraft:oak_boat",
+    "minecraft:crafting_table",
+    "minecraft:oak_planks"
+  ],
+  "recipe_defaults": {
+    "added": [],
+    "tags": {},
+    "resolutions": {},
+    "disabled": []
+  },
+  "hidden_stacks": []
+}
