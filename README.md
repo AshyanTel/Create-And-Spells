@@ -1,2 +1,143 @@
-# Create-And-Spells
- Create mod and Iron's Spells 'n Spellbooks centered mod pack
+
+![](https://github.com/AshyanTel/Create-And-Spells/blob/main/Create_and_Spells.png?raw=true)
+
+Create mod and Iron's Spells 'n Spellbooks centered mod pack. Made by AshyanTel.
+Here is the list of all mod used :
+- Farmer's Delight
+- Pick Up Notifier
+- Immersive Structures
+- Mob Plaques
+- kotlinforforge-4.10.0-all
+- Dynamic Music
+- Traveler's Titles
+- CTOV - More villagers compat
+- Companion
+- 3d-Skin-Layers
+- Iceberg
+- Canary
+- Right Click, Get Crops
+- Clumps
+- spark
+- MidnightLib
+- Chefs Delight
+- Merchant Markers
+- Create
+- Xaero's Minimap
+- Tidal Towns
+- Way Much Faster Oxidize Reborn
+- Geophilic
+- EMIffect
+- Cherries
+- GeckoLib 4
+- Searchables
+- Tom's Simple Storage Mod
+- NotEnoughAnimations
+- Ferrite Core
+- Oculus
+- CreateSweetsAndTreets
+- Waystones
+- Balm
+- Model Gap Fix
+- Jade
+- Immersive Snow
+- Smarter Farmers
+- Curios API
+- Xaero's Map - Waystones Compability
+- Kiwi Library
+- Create: Central Kitchen
+- EMI Trades
+- Legendary Tooltips
+- Embeddium++
+- XaeroPlus
+- Delightful
+- Tips
+- Netherracked
+- Spawn Animations
+- Amplified Nether
+- Better Ping Display
+- Beautify
+- Embeddium
+- Create: Trimmed
+- Player Animator
+- Create: Structures
+- Entity Model Features
+- Create: New Age
+- Amendments
+- Easy Anvils
+- Memory Leak Fix
+- Tough As Nails
+- YUNG's API
+- EMI
+- Resourcify
+- Lithostitched
+- LootBeams
+- Visual Workbench
+- Entity Texture Features
+- Sereneseasonfix
+- TexTrue's Embeddium Options
+- Separated Leaves
+- EntityCulling
+- More Music Discs
+- Puzzles Lib
+- Make Bubbles Pop
+- Snow! Real Magic!
+- Bad Packets
+- Better Advancements
+- Create: Wizardry
+- ChoiceTheorem's Overhauled Village
+- CTOV - Chef's delight Compat
+- Cloth Config v10 API
+- Bookshelf
+- CTOV - Farmer Delight Compat
+- Stoneworks
+- Nether Chested
+- Easy Magic
+- Xaero's World Map
+- Iron's RPG Tweaks
+- Jade Addons
+- Prism
+- No Resource Pack Warnings Forge
+- Botarium
+- Re:Deco
+- LAN World Plug-n-Play
+- Oculus Flywheel Compat
+- CTOV - Create: Structures
+- Healing Campfire
+- Cherished Worlds
+- Echo Chest
+- Moonlight Library
+- Elytra Trims
+- Better Archeology
+- Create Slice & Dice
+- CTOV - Iron's Spells 'n Spellbooks compat
+- Controlling
+- AppleSkin
+- Architectury
+- CullLeaves
+- Blossom Blade
+- Cherry Grove Villages
+- FriendlyFire
+- Bartering Station
+- BetterF3
+- Boat Item View
+- HopoBetterUnderwaterRuins
+- Leaves Be Gone
+- YUNG's Extras
+- OkZoomer
+- Sophisticated Backpacks
+- Keep Some Inventory
+- Sophisticated Core
+- Serene Seasons
+- CTOV - Beautify Compat
+- EMI Loot
+- Create Enchantment Industry
+- Nether's Delight
+- SeasonHUD
+- Caelus API
+- Radiant Gear
+- Collective
+- Highlight
+- Iron's Spells 'n Spellbooks
+- Sophisticated Storage
+- Waystones Teleport Pets
+- Forge Config Screens
